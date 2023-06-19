@@ -1,0 +1,73 @@
+.addBtn {
+  background-color: bisque;
+}
+.containerDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerDetails img {
+  width: 500px;
+  margin-top: 50px;
+}
+.containerDetails p {
+  width: 500px;
+  margin: 20px;
+}
+.containerDetails button {
+  width: 400px;
+  background-color: black;
+  height: 50px;
+  margin: 20px;
+  color: aliceblue;
+  border-radius: 40px;
+}
+.sizePAram {
+  width: 200px;
+  text-align: center;
+  height: 40px;
+  margin-top: 10px;
+}
+.commetnsInp {
+  border-radius: 15px;
+  text-align: center;
+  width: 400px;
+  height: 50px;
+}
+.commentsBtn {
+  max-width: 200px;
+}
+.commentsBlock {
+  margin: 10px;
+  max-width: 600px;
+  background-color: rgba(249, 217, 134, 1);
+  padding: 1px;
+  border-radius: 15px;
+}
+.btnblock {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 426px) {
+  img {
+    width: 300px;
+  }
+  p {
+    width: 300px;
+  }
+  .commentsBlock {
+    width: 300px;
+    margin: 10 auto;
+  }
+  .commetnsInp {
+    width: 300px;
+  }
+  .commentsBtn {
+    width: 200px;
+  }
+  .btnblock {
+    flex-direction: column;
+  }
+}

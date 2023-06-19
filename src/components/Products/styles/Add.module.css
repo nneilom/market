@@ -1,0 +1,46 @@
+.AddContainer {
+  margin: 20px auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: rgba(249, 217, 134, 1);
+}
+h4 {
+  margin: 20px;
+  font-size: 30px;
+}
+.input {
+  width: 500px;
+  margin: 10px;
+}
+/* .input :hover {
+  border-color: black;
+} */
+.Btn {
+  margin: 20px;
+  width: 300px;
+  height: 50px;
+  background-color: black;
+}
+.inpOrder {
+  text-align: center;
+  width: 600px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.674);
+}
+@media (max-width: 426px) {
+  .inpOrder {
+    width: 300px;
+  }
+  .AddContainer {
+    width: 96%;
+  }
+  .input {
+    width: 300px;
+  }
+}

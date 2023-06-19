@@ -1,0 +1,80 @@
+.orderContainer {
+  display: flex;
+  margin-top: 60px;
+}
+.leftOrder {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.infoOrder {
+  display: flex;
+  flex-direction: column;
+}
+.rightOrder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.iconPay {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.iconPay div {
+  width: 160px;
+  background-color: rgb(192, 231, 246);
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.inpOrder {
+  text-align: center;
+  width: 600px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.674);
+}
+
+.infoOrder button {
+  width: 400px;
+  height: 50px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 1.5em;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+h5 {
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.cityBlock {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.code {
+  width: 230px;
+  text-align: center;
+
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.674);
+}
+.city {
+  width: 350px;
+  text-align: center;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.674);
+}
